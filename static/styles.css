@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ul#products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+#product img {
+    border-radius: .25rem;
+}
+
+
+li#product a {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+li#product a h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+li#product a p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+div#product {
+    display: flex;
+    gap: 3rem;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.seller {
+    text-decoration: underline;
+}
+
+#seller-details {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#seller-details h2 {
+    margin-top: 14px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+}
